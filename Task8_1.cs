@@ -11,11 +11,11 @@ namespace _8_1
         static void Main(string[] args)
         {
             List<User> database = new List<User>() {
-            new User("Nastya", 20, "nastya@gmail.com"),
-            new User("Stefania", 20, "Stefania@gmail.com"),
-            new User("German", 23, "German@gmail.com"),
-            new User("Veronica", 19, "Veronica@gmail.com"),
-            new User("Rostik", 22, "Rostik@gmail.com")};
+            new User("Fredie", 20, "Fredie@gmail.com"),
+            new User("Lenny", 20, "Lenny@gmail.com"),
+            new User("Marco", 23, "Marco@gmail.com"),
+            new User("Star", 19, "Star@gmail.com"),
+            new User("Kile", 22, "Kile@gmail.com")};
 
             List<User> olderThen21 = new List<User>();
             olderThen21 = database.Where(n => n.age > 20).ToList();
